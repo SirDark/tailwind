@@ -1,0 +1,12 @@
+
+create config: npx tailwindcss init
+
+build: npx tailwindcss -i ./src/input.css -o ./build/css/style.css
+
+rebuild at every change: npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch
+
+
+packages for vscode
+live server: testing
+inline fold: make code looks nicer
+tailwind css iuntellisense: snippets
